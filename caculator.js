@@ -86,10 +86,12 @@ function calculate() {
 }
 
 function showPremiumModal(expression, result) {
+  document.body.classList.add("modal-open");
   premiumModal.classList.add("show");
 }
 
 function closeModal() {
+  document.body.classList.remove("modal-open");
   premiumModal.classList.remove("show");
 }
 
