@@ -50,6 +50,7 @@ body.modal-open {
 
 body.modal-open .modal {
   pointer-events: auto;
+  filter: none;
 }
 
 .container {
