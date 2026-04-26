@@ -43,14 +43,11 @@ body {
 }
 
 body.modal-open {
-  filter: blur(4px) brightness(0.8);
   pointer-events: none;
-  transition: filter 0.3s ease;
 }
 
 body.modal-open .modal {
   pointer-events: auto;
-  filter: none;
 }
 
 .container {
